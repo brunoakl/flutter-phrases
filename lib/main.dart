@@ -10,8 +10,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Frases Aleatórias',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: const Color.fromARGB(255, 54, 54, 54), // Cor de fundo da tela
+        primaryColor: const Color.fromARGB(255, 146, 193, 216), // Cor primária (para AppBar e outros componentes)
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.blueGrey, // Cor do AppBar
+        ),
+        colorScheme: ColorScheme.dark(
+          primary: const Color.fromARGB(255, 166, 216, 241), // Cor primária
+          secondary: Colors.blueAccent, // Cor secundária
+        ),
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(color: Colors.white), // Cor do texto principal
+          bodyMedium: TextStyle(color: Colors.white), // Cor do texto secundário
+          titleLarge: TextStyle(color: Colors.white), // Cor do título (AppBar)
+        ),
+      ),
       home: FraseScreen(),
     );
   }
