@@ -14,5 +14,5 @@ Para que a aplicação funcione de modo adequado, siga o seguintes passos:
 ![Backend iniciado](https://imgur.com/a/S3FXYKy)
 
 2) Abra outro terminal no diretório "lib", execute `flutter run` e escolha um navegador web para testar. Você também pode usar `flutter run -d chrome` para executar diretamente no Chrome.
-![flutter run](https://imgur.com/MxlaNKF)
-![flutter run chrome](https://imgur.com/iu6ixxo)
+![flutter run](https://imgur.com/MxlaNKF.png)
+![flutter run chrome](https://imgur.com/iu6ixxo.png)
