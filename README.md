@@ -1,16 +1,12 @@
-# frases
+## flutter-phrases
+Projeto flutter para TAC II de uma aplicação que recebe frases de uma API
+Autor: Bruno Machado Ferreira
 
-A new Flutter project.
+### Dependências e afins
+- `Node`
+- `Flutter SDK`
+- `http`
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Uso
+Para que a aplicação funcione de modo adequado, siga o seguintes passos:
+Abra um terminal no diretório API e execute `node ./index.js` para iniciar o servidor backend
